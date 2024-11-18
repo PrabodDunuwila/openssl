@@ -127,24 +127,20 @@ string_mask = utf8only
 
 [ req_distinguished_name ]
 countryName			= County Name
-countryName_default		= LK
+countryName_default		= US
 countryName_min			= 2
 countryName_max			= 2
 
 stateOrProvinceName		= Province Name
-stateOrProvinceName_default	= Western
+stateOrProvinceName_default	= California
 
 localityName			= Locality Name
-localityName_default            = Colombo
+localityName_default            = San Francisco
 0.organizationName		= Oganization Name
-0.organizationName_default	= OrgN
-
-# we can do this but it is not needed normally :-)
-#1.organizationName		= Second Organization Name (eg, company)
-#1.organizationName_default	= World Wide Web Pty Ltd
+0.organizationName_default	= My Organization
 
 organizationalUnitName		= Organization Unit Name
-organizationalUnitName_default	= OrgUnitN
+organizationalUnitName_default	= My Unit
 
 commonName			= Common Name (e.g. server FQDN or YOUR name)
 commonName_max			= 64
